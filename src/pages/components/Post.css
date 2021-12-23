@@ -1,0 +1,40 @@
+.blog-preview {
+    padding: 5px 25px;
+    margin: 15px 0;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 10px;
+}
+
+.blog-preview:hover {
+    transition: 0.5s;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+.head {
+    display: flex;
+    margin-bottom: 8px;
+    font-size: 1.25em;
+    padding: 0.5em 0.5em 0.5em 0em;
+    margin: 0;
+    column-gap: 0.5em;
+}
+
+.username {
+    color: black;
+    text-decoration: none;
+}
+.username:hover {
+    text-decoration: underline solid black;
+}
+
+.title {
+    font-weight: bold;
+    color: black;
+}
+
+.blog-preview p {
+    margin: 0;
+    padding: 0.5em 0.5em 0.5em 0em;
+    font-size: 1em;
+    color: black;
+}
